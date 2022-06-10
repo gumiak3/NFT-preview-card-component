@@ -101,7 +101,9 @@ p{
     color:var(--white);
     font-size:15px;
 }
-
+.card-content-img-div img{
+    transition: opacity 2s;
+}
 /* IMG HOVERING ANIMATION */
 .card-content-img-div{
     display:flex;
