@@ -102,7 +102,7 @@ p{
     font-size:15px;
 }
 .card-content-img-div img{
-    transition: opacity 2s;
+    transition: opacity 3s;
 }
 /* IMG HOVERING ANIMATION */
 .card-content-img-div{
