@@ -7,8 +7,11 @@
 body{
     margin:0;
     padding:0;
-    font-size:18px;
+    
     background: hsl(217,54%,11%);
+}
+p{
+    font-size:18px;
 }
 .container{
     display:flex;
@@ -23,7 +26,7 @@ body{
     background:hsl(216,50%,16%);
     margin-bottom:50px;
     border-radius:10px;
-    box-shadow: 10px 20px 10px rgba(0,0,0,0.2), -10px 20px 10px rgba(0,0,0,0.2);
+    box-shadow: 10px 20px 30px rgba(0,0,0,0.2), -10px 20px 30px rgba(0,0,0,0.2);
 }
 .card-content{
     width:100%;
@@ -40,19 +43,22 @@ body{
 .card-name{
     color:var(--white);
     font-family: 'Outfit', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
 }
 .card-small-discription{
     width:100%;
     color:var(--soft_blue);
     font-weight: 300;
+    font-size:18px;
+    font-family:'Outfit',sans-serif;
 }
 .balance-ammount{
     color:var(--cyan);
     text-transform: uppercase;
     font-family: 'Outfit', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     text-align: left;
+    font-size:15px;
 }
 .card-balance{
     display:flex;
@@ -67,11 +73,13 @@ body{
 }
 .timer{
     color:var(--soft_blue);
+    font-size:15px;
 }
 .card-creator-info{
     display:flex;
     align-items: center;
     gap:5px;
+    padding-top:10px;
 }
 .card-creator-info img{
     width:100%;
@@ -84,9 +92,14 @@ body{
     color:var(--soft_blue);
     font-family:'Outfit',sans-serif;
     font-weight: 300;
+    font-size:smaller;
+    
 }
 .card-creator-info p:nth-child(3){
+    font-family:'Outfit',sans-serif;
+    font-weight: 300;
     color:var(--white);
+    font-size:15px;
 }
 
 /* IMG HOVERING ANIMATION */
